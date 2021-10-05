@@ -1,6 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="573F8739-3010-3908-3F61-1A8729709B1A" name="Entity_files" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C156A3DE-895A-BD01-AD7C-FB920577C38F" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="D139EBA5-A7AB-3667-0A89-4EFE3970F018" name="Entity_filetest" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C156A3DE-895A-BD01-AD7C-FB920577C38F" propertySourceId="" propertyTargetId=""/>
-   <object objectType="View" objectID="81B73B15-6A04-9D0A-DB10-77A1B8743866" name="VIEW_file" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.TableView" propertyParentId="C156A3DE-895A-BD01-AD7C-FB920577C38F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="4000BA22-1DC7-84BA-05E4-612B19229301" name="Entity_file" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C156A3DE-895A-BD01-AD7C-FB920577C38F" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

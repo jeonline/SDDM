@@ -1,79 +1,62 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D139EBA5-A7AB-3667-0A89-4EFE3970F018" name="Entity_filetest">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4000BA22-1DC7-84BA-05E4-612B19229301" name="Entity_file">
 <createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
 <generatorID>A633AFA6-2D55-8F95-3862-38E73E692EF9</generatorID>
 <ownerDesignName>file2sql</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="F8D43244-DCB6-5A53-13B9-ABADA029B149">
+<Column name="name" id="3D8AAA2E-4D7A-D9A8-FCD6-E14B61D4DC11">
 <createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
-<generatorID>69098A47-2DCB-19F7-95EB-2EC75A0F2AEA</generatorID>
-<ownerDesignName>file2sql</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<domain>20A0F660-8AC0-9D97-D3A3-A5C10038DDD6</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="name" id="2D6B8F08-AED2-D82D-C76E-1243EE5E049D">
-<createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
 <generatorID>49F5E8ED-9A6E-6D93-8D12-F32801DE3A17</generatorID>
 <ownerDesignName>file2sql</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>BBCAD89C-F399-7135-5419-596380BAE272</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data" id="445ECBEE-7429-A195-29D3-46D22A74DE37">
+<Column name="data" id="3EA2FC45-6733-7C1A-94D7-797528E1E1B7">
 <createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
 <generatorID>F9275584-CAA6-BF2E-7E7A-437997C213AA</generatorID>
 <ownerDesignName>file2sql</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10036</logicalDatatype>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <domain>DB19216B-284C-59A5-C6A9-292AF55F5A44</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="md5sum" id="4F91FD2A-130E-4017-CE80-78CA4CF076D7">
+<Column name="md5sum" id="25BDEE0C-9648-0DB3-83B3-3EE27432EF9C">
 <createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
 <generatorID>316EE9C8-04AA-60D8-897D-3E81E0A1FB4A</generatorID>
 <ownerDesignName>file2sql</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>E01C4300-9F33-2A4E-DF52-26BA1E3EB91E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="chunk" id="7614BAC7-1844-0F37-0224-70C89A282662">
+<Column name="chunk" id="B789CA14-77E9-AF29-F686-4445420940DF">
 <createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
 <generatorID>EB30F79B-6DF1-96F5-94CF-27154ABFED43</generatorID>
 <ownerDesignName>file2sql</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>61977433-426A-B59D-1D2E-8AFBB80A957F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="chunks" id="9421A04E-C420-B9B6-6506-E811CD93A53B">
+<Column name="chunks" id="8A6A5F0C-ACE9-09A2-6EF7-C006224E6C28">
 <createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
 <generatorID>EF87E182-DE09-CC87-8F65-DA2BB637CB80</generatorID>
 <ownerDesignName>file2sql</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>04A064D2-A8A1-5249-D064-13E7090BCB70</domain>
@@ -81,4 +64,25 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53EF940C-FF48-2051-8D9A-70EDB50A2462" name="Entity_file_PK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 02:14:00 UTC</createdTime>
+<generatorID>9F3BFB24-8C3A-3564-EEB6-F2B5882756D1</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="AF29915A-4840-489F-4C1B-AF11D135270F" name="Entity_file__IDX">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 02:15:12 UTC</createdTime>
+<ownerDesignName>file2sql</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D8AAA2E-4D7A-D9A8-FCD6-E14B61D4DC11"/>
+<colUsage columnID="25BDEE0C-9648-0DB3-83B3-3EE27432EF9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

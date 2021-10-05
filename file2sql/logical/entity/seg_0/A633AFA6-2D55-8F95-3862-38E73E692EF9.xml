@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A633AFA6-2D55-8F95-3862-38E73E692EF9" name="Entity_filetest">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A633AFA6-2D55-8F95-3862-38E73E692EF9" name="Entity_file">
 <createdBy>jicky</createdBy>
 <createdTime>2021-10-05 01:26:10 UTC</createdTime>
 <ownerDesignName>file2sql</ownerDesignName>
@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <domain>20A0F660-8AC0-9D97-D3A3-A5C10038DDD6</domain>
@@ -35,7 +34,6 @@
 <engineerTo>
 <item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>BBCAD89C-F399-7135-5419-596380BAE272</domain>
@@ -48,23 +46,9 @@
 <engineerTo>
 <item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10036</logicalDatatype>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <domain>DB19216B-284C-59A5-C6A9-292AF55F5A44</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="md5sum" id="316EE9C8-04AA-60D8-897D-3E81E0A1FB4A">
-<createdBy>jicky</createdBy>
-<createdTime>2021-10-05 01:26:51 UTC</createdTime>
-<ownerDesignName>file2sql</ownerDesignName>
-<engineerTo>
-<item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E01C4300-9F33-2A4E-DF52-26BA1E3EB91E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="chunk" id="EB30F79B-6DF1-96F5-94CF-27154ABFED43">
@@ -74,7 +58,6 @@
 <engineerTo>
 <item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>61977433-426A-B59D-1D2E-8AFBB80A957F</domain>
@@ -87,11 +70,24 @@
 <engineerTo>
 <item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>04A064D2-A8A1-5249-D064-13E7090BCB70</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F3BFB24-8C3A-3564-EEB6-F2B5882756D1" name="Entity_file PK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 02:11:44 UTC</createdTime>
+<ownerDesignName>file2sql</ownerDesignName>
+<engineerTo>
+<item key="C156A3DE-895A-BD01-AD7C-FB920577C38F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69098A47-2DCB-19F7-95EB-2EC75A0F2AEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
