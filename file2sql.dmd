@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="file2sql" id="2C79DD96-56FB-3C1E-BFDA-8F8A9113F4AD" version="3.5">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 00:04:11 UTC</createdTime>
+<ownerDesignName>file2sql</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2C79DD96-56FB-3C1E-BFDA-8F8A9113F4AD</designId>
+</OSDM_Design>
