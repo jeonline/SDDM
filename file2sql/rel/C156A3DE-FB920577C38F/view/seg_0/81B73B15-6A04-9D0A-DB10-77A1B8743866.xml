@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="81B73B15-6A04-9D0A-DB10-77A1B8743866" name="VIEW_file">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>9E48F9F5-F5F3-46CD-8FF8-B394673609B7</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    entity_files.*
+FROM
+    entity_files]]></userDefinedSQL>
+<layoutSQL><![CDATA[<?xml version = '1.0' encoding = 'UTF-8'?>
+<ActiveQueryBuilderLayout><SQL>Select Entity_files.* From Entity_files</SQL><SubQueries><SubQuery SQL="Select Entity_files.* From Entity_files"><UnionSubQuery><DataSource SQL="Entity_files" X="50" Y="20" Height="173" Width="140"/></UnionSubQuery></SubQuery></SubQueries></ActiveQueryBuilderLayout>]]></layoutSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="573F8739-3010-3908-3F61-1A8729709B1A"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="file_id" id="47C5C77F-1262-2826-9853-37EC86A27C61">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>1AF7CB08-5444-9382-01D1-19D33042D47D</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>CA302C54-BDB0-2A82-2029-15E98EEEDB41</referencedColumn>
+<table>573F8739-3010-3908-3F61-1A8729709B1A</table>
+<viewID>81B73B15-6A04-9D0A-DB10-77A1B8743866</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="file_name" id="E4E3B530-8C53-2D68-6EC5-737F6D0301BC">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>3AA71883-11FC-7424-5A34-CF745B28C5E5</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1024 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>E32B929C-5826-DD36-8D27-1C4D31EEB382</referencedColumn>
+<table>573F8739-3010-3908-3F61-1A8729709B1A</table>
+<viewID>81B73B15-6A04-9D0A-DB10-77A1B8743866</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="file_data" id="7D0FAC47-0EAF-1357-5195-D251DB67F808">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>C1AE62C7-CC85-0D59-B6D0-0487DFC36EE9</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>LONG RAW</dataType>
+<reference>false</reference>
+<referencedColumn>52690A4D-70F9-870D-4BA2-5E106133FDD2</referencedColumn>
+<table>573F8739-3010-3908-3F61-1A8729709B1A</table>
+<viewID>81B73B15-6A04-9D0A-DB10-77A1B8743866</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="file_md5sum" id="1D6D75F5-5D20-31A5-1EDE-A4AB04C0560C">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>5349E7E8-E497-431F-59A1-4ACDC04D76F4</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (40 CHAR)</dataType>
+<reference>false</reference>
+<referencedColumn>65216AAE-7CC6-F1F8-7760-A7587078780E</referencedColumn>
+<table>573F8739-3010-3908-3F61-1A8729709B1A</table>
+<viewID>81B73B15-6A04-9D0A-DB10-77A1B8743866</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="chunk" id="CBD5361F-DCD5-8F4E-6895-7F43F1691EFF">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>29FD51BE-B8B1-5333-792C-4D7FB592CC9C</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>5035A095-A2BD-5F6E-151E-235045D4A870</referencedColumn>
+<table>573F8739-3010-3908-3F61-1A8729709B1A</table>
+<viewID>81B73B15-6A04-9D0A-DB10-77A1B8743866</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="chunks" id="0CF41687-B344-0D34-7BE4-AF23DA92CDA7">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>4EF34558-A27A-97CF-7E71-128C10A71427</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>E4946D24-B68C-56F9-C1B7-4B1F464468A4</referencedColumn>
+<table>573F8739-3010-3908-3F61-1A8729709B1A</table>
+<viewID>81B73B15-6A04-9D0A-DB10-77A1B8743866</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="573F8739-3010-3908-3F61-1A8729709B1A">
+<container>true</container>
+<tableName>Entity_files</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CA302C54-BDB0-2A82-2029-15E98EEEDB41">
+<columnName>file_id</columnName>
+<tableName>Entity_files</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E32B929C-5826-DD36-8D27-1C4D31EEB382">
+<columnName>file_name</columnName>
+<tableName>Entity_files</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="52690A4D-70F9-870D-4BA2-5E106133FDD2">
+<columnName>file_data</columnName>
+<tableName>Entity_files</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="65216AAE-7CC6-F1F8-7760-A7587078780E">
+<columnName>file_md5sum</columnName>
+<tableName>Entity_files</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5035A095-A2BD-5F6E-151E-235045D4A870">
+<columnName>chunk</columnName>
+<tableName>Entity_files</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E4946D24-B68C-56F9-C1B7-4B1F464468A4">
+<columnName>chunks</columnName>
+<tableName>Entity_files</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

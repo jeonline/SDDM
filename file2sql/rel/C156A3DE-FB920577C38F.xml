@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C156A3DE-895A-BD01-AD7C-FB920577C38F" mainViewID="2975D283-F605-BFED-0D2D-ED158F34E151">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_file" id="C156A3DE-895A-BD01-AD7C-FB920577C38F" mainViewID="2975D283-F605-BFED-0D2D-ED158F34E151">
 <createdBy>jicky</createdBy>
 <createdTime>2021-10-05 00:04:11 UTC</createdTime>
 <ownerDesignName>file2sql</ownerDesignName>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="573F8739-3010-3908-3F61-1A8729709B1A" name="Entity_files">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>31934297-AB3E-2847-21A6-2F5A4B7B4C5F</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="file_id" id="CA302C54-BDB0-2A82-2029-15E98EEEDB41">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>70E3C9EE-8776-F662-B181-21125341BC2F</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_name" id="E32B929C-5826-DD36-8D27-1C4D31EEB382">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>0A0D2CAB-50CB-7914-3578-BC4F8240D775</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_data" id="52690A4D-70F9-870D-4BA2-5E106133FDD2">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>0F2D4A96-D9C2-B5EF-9DB9-9579B70D2D6F</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10036</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_md5sum" id="65216AAE-7CC6-F1F8-7760-A7587078780E">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>5C9B46F3-DE51-19C9-3D47-6FB842BE2BD1</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chunk" id="5035A095-A2BD-5F6E-151E-235045D4A870">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>83AC7C6C-D221-9559-2B08-154BDAFD47DB</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chunks" id="E4946D24-B68C-56F9-C1B7-4B1F464468A4">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>53A54348-C752-2F4D-38CC-4D3A36F701DC</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48076074-4270-F90B-26B4-09FC70CA1F09" name="Entity_files_PK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:29:36 UTC</createdTime>
+<generatorID>FCC81ACC-A587-54E7-64D2-DA4FA6400D9A</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA302C54-BDB0-2A82-2029-15E98EEEDB41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B36EFB5-0C1D-2772-9ACB-6769D839F8AC" name="Entity_files__UN">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:32:48 UTC</createdTime>
+<ownerDesignName>file2sql</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA302C54-BDB0-2A82-2029-15E98EEEDB41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9818D197-3392-298C-9455-16C673952E12" name="Entity_files__IDX">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:33:10 UTC</createdTime>
+<ownerDesignName>file2sql</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65216AAE-7CC6-F1F8-7760-A7587078780E"/>
+<colUsage columnID="E32B929C-5826-DD36-8D27-1C4D31EEB382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="2975D283-F605-BFED-0D2D-ED158F34E151">
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_file" id="2975D283-F605-BFED-0D2D-ED158F34E151">
 <createdBy>jicky</createdBy>
 <modifiedBy>jicky</modifiedBy>
 <createdTime>2021-10-05 00:14:26 UTC</createdTime>
@@ -13,4 +13,18 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="573F8739-3010-3908-3F61-1A8729709B1A" otype="Table" vid="AA42A92D-7B36-9BE9-DCB5-6F6BF725982F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="51" y="19" width="118" height="117"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="81B73B15-6A04-9D0A-DB10-77A1B8743866" otype="View" vid="329C0742-EA83-416E-B7F7-43F175CD0BD2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="241" y="25" width="195" height="131"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D139EBA5-A7AB-3667-0A89-4EFE3970F018" otype="Table" vid="F14906DB-8ADC-EB6A-C7BA-3FEB8C72484E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="59" y="202" width="101" height="117"/>
+</OView>
+</objectViews>
 </Diagram>
