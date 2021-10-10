@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="JOB_HISTORY" directorySegmentName="seg_0" id="C62038C9-AB9E-BB89-A5E7-3026532C9E64">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<schemaObject>08318FA5-F62D-D3B9-4413-BD9AC6351433</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>505A49F7-AEBD-2B82-438E-6EDB919205F9</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPLOYEE_ID" id="01A8A042-F5D4-F5EC-13B3-90152421DDF9">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="4A044C28-9BEE-F91C-DCD2-6398D82EA64E">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="56D7A7A8-8C95-98D9-FC26-5145D7DF2C53">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="8CB33EDD-16E1-817E-C129-F58DA0DDFCA8">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="9A57209B-F949-055E-69B9-48E9930EEFDA">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="JHIST_EMP_ID_ST_DATE_PK" id="DC991C42-9790-43A9-F974-F58AD17712C1">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<schemaObject>08318FA5-F62D-D3B9-4413-BD9AC6351433</schemaObject>
+<segment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JHIST_DEPT_FK" id="63AABD87-8241-9179-54EF-E035BB50C2D8">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JHIST_JOB_FK" id="8EA6D4B0-5B08-9BE1-7953-E3275E16DABA">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JHIST_EMP_FK" id="DF600911-8F2C-DEEC-1D37-5B422951F2F4">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JHIST_EMP_ID_ST_DATE_PK" id="0B0C595C-E90C-97B2-5B5D-0AA57FFAC31F">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<segment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+<existingIndex>DC991C42-9790-43A9-F974-F58AD17712C1</existingIndex>
+<indexSegment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="JHIST_DATE_INTERVAL" id="3B91D2D9-06A2-7748-49F4-DD72A9FAD552">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev11g>

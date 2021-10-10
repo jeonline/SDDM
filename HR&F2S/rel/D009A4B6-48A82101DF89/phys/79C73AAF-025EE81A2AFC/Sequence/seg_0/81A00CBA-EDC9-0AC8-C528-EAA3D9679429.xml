@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="DEPARTMENTS_SEQ" directorySegmentName="seg_0" id="81A00CBA-EDC9-0AC8-C528-EAA3D9679429">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>DEPARTMENTS_SEQ</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:22:12 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<incrementBy>10</incrementBy>
+<maxValue>9990</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<user>11C2F2EF-D20D-9873-0A65-333D2EDEFC02</user>
+</SequenceOraclev10g>

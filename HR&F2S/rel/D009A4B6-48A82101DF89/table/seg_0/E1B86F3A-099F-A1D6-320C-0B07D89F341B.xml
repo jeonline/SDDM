@@ -1,0 +1,285 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1B86F3A-099F-A1D6-320C-0B07D89F341B" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="EMPLOYEES">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>BB5F426F-C6FA-9C98-0208-2018A89E810B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="B193E4B6-722A-7D2A-69C6-3C5AD8056FE3">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>E4E35C91-F9EB-5C33-01E0-5825AB8332FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="546333C8-4DDE-1183-C1FD-3A1B71B7F4EC">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>A2B8DF3E-B84A-7C7C-6BA4-AC8AB19DD650</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="B609AB3D-6F7A-FBEA-2174-2DB36E94742A">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>162EDD05-E99F-1091-0239-73486BBD9F94</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="EMAIL" id="1B6AA299-8CAE-6E79-7DCD-C7AFB333A75E">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>7E8F06A3-0FF2-E751-109A-D2AC53195014</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_EMAIL_NN</notNullConstraintName>
+</Column>
+<Column name="PHONE_NUMBER" id="5AC79A2F-EB40-2851-E037-9FE48D6C2E88">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>PHONE_NUMBER</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>07229EF4-1213-225B-01D7-DC051D6F75FE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="7BF437E8-89C0-51DA-FF3E-1D904CFA10EA">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>HIRE_DATE</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>53AF961F-7294-E73C-2404-60020ACBE026</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_HIRE_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="JOB_ID" id="55F1ED82-EDCE-FA40-B62B-613ADF5FCB0F">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>A2C18085-F50F-68FE-401F-4E9DD62AD175</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_JOB_NN</notNullConstraintName>
+</Column>
+<Column name="SALARY" id="2E8FB887-B2DA-4631-9E3B-9834AEDF20FC">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>4EBF07CA-6AB7-B3DB-FA83-696FC491E2C1</importedID>
+<constraintName>EMP_SALARY_MIN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="salary &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="salary &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMISSION_PCT" id="9E0D69A7-5C02-9CB6-478A-BEFFCE68EE1C">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>COMMISSION_PCT</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>F3441A89-10B7-4781-15EE-8E6744B29E48</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="9FF0642A-7CAC-A039-1FA7-DA306139D19F">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>7914A772-8913-4BE1-13BB-A4684E84C868</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BA420C0-5C5F-79D1-85B7-5F3D70DD5E29" referredColumn="B193E4B6-722A-7D2A-69C6-3C5AD8056FE3"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="D68EFACD-B862-E46F-405F-60ECC4270527">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>674FFE17-6D94-6395-BE5C-5D485B55326B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DA7E89F-A79D-3605-B79A-7B2D7B872A58" referredColumn="5B629A11-9A80-853B-8210-4C7173E956CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94AD96B6-4786-088B-A7C5-223FB1523BDB" name="EMP_EMP_ID_PK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>E4D601BD-614C-37BD-29F2-C536DB639B91</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B193E4B6-722A-7D2A-69C6-3C5AD8056FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70C3BF3E-62FC-6AD6-93B9-87A76FE65AB0" name="EMP_EMAIL_UK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>EMP_EMAIL_UK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>C99FD02F-F3BA-B26D-440A-75DCF7FCB88A</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6AA299-8CAE-6E79-7DCD-C7AFB333A75E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC1ABF80-6010-220F-1684-7CB96A2F3AF0" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="EMP_EMAIL_UK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>EMP_EMAIL_UK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>A99B27E0-8093-D610-BA3A-F0417AEFB6B4</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6AA299-8CAE-6E79-7DCD-C7AFB333A75E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4A8AA82-E962-4C16-D640-5561631E7DBD" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="EMP_EMP_ID_PK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>8B1D382C-6DA9-9A2A-C964-00C6A26E6755</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B193E4B6-722A-7D2A-69C6-3C5AD8056FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB041B39-615F-091D-F4DC-3C2EEE4C7E92" name="EMP_DEPT_FK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D68EFACD-B862-E46F-405F-60ECC4270527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3544AB5-156F-E142-1DB0-3190BAB601C0" name="EMP_MANAGER_FK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FF0642A-7CAC-A039-1FA7-DA306139D19F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

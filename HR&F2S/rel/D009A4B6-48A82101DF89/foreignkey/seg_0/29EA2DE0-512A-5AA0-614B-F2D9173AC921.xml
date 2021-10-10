@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29EA2DE0-512A-5AA0-614B-F2D9173AC921" containerWithKeyObject="05CDADD3-AC3A-F121-DC34-23F5D77DFC69" localFKIndex="C2D1884F-5E31-DAA8-CD17-009AB65CB194" name="LOC_C_ID_FK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>LOC_C_ID_FK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>FF6CB941-3891-D2F3-0DC7-774BE4F757F7</importedID>
+<referredTableLongName>JICKY.COUNTRIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F28075EC-F1C0-76E7-5FB3-0255EB62E58D</referredTableID>
+<keyObject>C3910130-C594-90B8-4F87-16691B33809C</keyObject>
+<referredKeyID>C3910130-C594-90B8-4F87-16691B33809C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COUNTRY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

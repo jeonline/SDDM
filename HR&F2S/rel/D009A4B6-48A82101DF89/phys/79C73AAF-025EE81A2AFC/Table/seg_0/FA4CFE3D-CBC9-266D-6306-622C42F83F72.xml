@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REGIONS" directorySegmentName="seg_0" id="FA4CFE3D-CBC9-266D-6306-622C42F83F72">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<schemaObject>08318FA5-F62D-D3B9-4413-BD9AC6351433</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>505A49F7-AEBD-2B82-438E-6EDB919205F9</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="70D38B90-B8BF-B4E2-63E4-F1ECD11979E8">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_NAME" id="A2D8D3F4-81BE-33E9-50CF-EEB2806C7BD7">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="811F352C-7178-2A95-31C4-7090C9B1FCDD">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<schemaObject>08318FA5-F62D-D3B9-4413-BD9AC6351433</schemaObject>
+<segment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="251281A7-F054-FD0B-DACD-126B478EBC38">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<segment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+<existingIndex>811F352C-7178-2A95-31C4-7090C9B1FCDD</existingIndex>
+<indexSegment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C62038C9-AB9E-BB89-A5E7-3026532C9E64" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="JOB_HISTORY">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>JOB_HISTORY</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Table that stores job history of the employees. If an employee  changes departments within the job or changes jobs within the department,  new rows get inserted into this table with old job information of the employee. Contains a complex primary key: employee_id+start_date. Contains 25 rows. References with jobs, employees, and departments tables.]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>97EA02C5-23A2-FB67-F1D3-FFC561800488</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="01A8A042-F5D4-F5EC-13B3-90152421DDF9">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[A not null column in the complex primary key employee_id+start_date. Foreign key to employee_id column of the employee table]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>C18DA5AA-3E42-641E-F43E-8450344EBC64</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_EMPLOYEE_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1426950D-D66E-98A6-A8EC-564FA9CE7CDE" referredColumn="B193E4B6-722A-7D2A-69C6-3C5AD8056FE3"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="56D7A7A8-8C95-98D9-FC26-5145D7DF2C53">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[A not null column in the complex primary key employee_id+start_date.  Must be less than the end_date of the job_history table. (enforced by constraint jhist_date_interval)]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>5DC68263-6A7F-928A-40D3-C577DC62BDF6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_START_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="4A044C28-9BEE-F91C-DCD2-6398D82EA64E">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last day of the employee in this job role. A not null column. Must be greater than the start_date of the job_history table.  (enforced by constraint jhist_date_interval)]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>DD116DD4-C7B2-DD15-009B-339A807A337F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_END_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="JOB_ID" id="8CB33EDD-16E1-817E-C129-F58DA0DDFCA8">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job role in which the employee worked in the past; foreign key to job_id column in the jobs table. A not null column.]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>649D7392-C8D2-F254-9EFA-4ABCA41021BB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_JOB_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="32D0AD07-2AE4-4193-8E3D-51B490A79C4D" referredColumn="E4510D0E-4236-3087-7BD1-A74B4832169A"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="9A57209B-F949-055E-69B9-48E9930EEFDA">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>04FB0287-1390-5DB1-A6BB-2F974955A512</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B1218BD-F54F-718C-1008-DBD723C23CA4" referredColumn="5B629A11-9A80-853B-8210-4C7173E956CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B0C595C-E90C-97B2-5B5D-0AA57FFAC31F" name="JHIST_EMP_ID_ST_DATE_PK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>JHIST_EMP_ID_ST_DATE_PK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>48FE5815-19B3-6DA3-E363-4B13CF4E87DA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01A8A042-F5D4-F5EC-13B3-90152421DDF9"/>
+<colUsage columnID="56D7A7A8-8C95-98D9-FC26-5145D7DF2C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC991C42-9790-43A9-F974-F58AD17712C1" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="JHIST_EMP_ID_ST_DATE_PK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>JHIST_EMP_ID_ST_DATE_PK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>E323DF84-E16C-7455-ECED-FBA42E72027E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01A8A042-F5D4-F5EC-13B3-90152421DDF9"/>
+<colUsage columnID="56D7A7A8-8C95-98D9-FC26-5145D7DF2C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63AABD87-8241-9179-54EF-E035BB50C2D8" name="JHIST_DEPT_FK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A57209B-F949-055E-69B9-48E9930EEFDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF600911-8F2C-DEEC-1D37-5B422951F2F4" name="JHIST_EMP_FK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01A8A042-F5D4-F5EC-13B3-90152421DDF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EA6D4B0-5B08-9BE1-7953-E3275E16DABA" name="JHIST_JOB_FK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CB33EDD-16E1-817E-C129-F58DA0DDFCA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="JHIST_DATE_INTERVAL" directorySegmentName="seg_0" id="3B91D2D9-06A2-7748-49F4-DD72A9FAD552">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>JHIST_DATE_INTERVAL</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>AD8F3E02-446A-801E-C891-C2D7D1E3C5FA</importedID>
+<rule><![CDATA[end_date > start_date]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

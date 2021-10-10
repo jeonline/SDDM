@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="JOBS" directorySegmentName="seg_0" id="28DBF2D3-528D-4C1C-F12B-8B46C622ABE8">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<schemaObject>08318FA5-F62D-D3B9-4413-BD9AC6351433</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>505A49F7-AEBD-2B82-438E-6EDB919205F9</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MIN_SALARY" id="6274EB81-0087-156C-3D35-6047975A01B5">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAX_SALARY" id="7B788327-0D4D-CA67-6643-EDC8CBBD7EBA">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_TITLE" id="999571B3-7FD4-96DD-9541-B111CA419170">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="E4510D0E-4236-3087-7BD1-A74B4832169A">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="JOB_ID_PK" id="91CC2522-62C8-CE2A-156D-A688DEC5B4C5">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<schemaObject>08318FA5-F62D-D3B9-4413-BD9AC6351433</schemaObject>
+<segment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOB_ID_PK" id="E1ED3719-A6A6-338A-8ACA-3524BFB8E7DB">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<segment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</segment>
+<tableSpace>C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC</tableSpace>
+<existingIndex>91CC2522-62C8-CE2A-156D-A688DEC5B4C5</existingIndex>
+<indexSegment>D40BA859-9483-F3B3-7F2E-D8CA4FFE4804</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

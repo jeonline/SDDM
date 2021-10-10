@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA4CFE3D-CBC9-266D-6306-622C42F83F72" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="REGIONS">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>REGIONS</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Regions table that contains region numbers and names. Contains 4 rows; references with the Countries table.]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>219065ED-9BE7-11B7-06E6-E9D9BAF02264</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="70D38B90-B8BF-B4E2-63E4-F1ECD11979E8">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>REGIONS</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primary key of regions table.]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>F5DD8E39-1BAA-B907-06DD-DB33894E6BE3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>REGION_ID_NN</notNullConstraintName>
+</Column>
+<Column name="REGION_NAME" id="A2D8D3F4-81BE-33E9-50CF-EEB2806C7BD7">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>REGIONS</sourceObjSchema>
+<sourceObjName>REGION_NAME</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Names of regions. Locations are in the countries of these regions.]]></commentInRDBMS>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>8853A6DB-E5D9-EEA5-DD40-995F892003E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="251281A7-F054-FD0B-DACD-126B478EBC38" name="REG_ID_PK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>REG_ID_PK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>04F544E6-5BDC-E4D0-B251-9AA8B3F2C990</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70D38B90-B8BF-B4E2-63E4-F1ECD11979E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="811F352C-7178-2A95-31C4-7090C9B1FCDD" schemaObject="08318FA5-F62D-D3B9-4413-BD9AC6351433" name="REG_ID_PK">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>JICKY</sourceObjSchema>
+<sourceObjName>REG_ID_PK</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 02:23:29 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<importedID>2050EAF4-6D08-20AD-68E2-3AE7A054ED7A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70D38B90-B8BF-B4E2-63E4-F1ECD11979E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="DATA" directorySegmentName="seg_0" id="C1FF8DA7-4C5B-4C8F-42A0-90D19342D7AC">
+<sourceConnName>SDDM</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>DATA</sourceObjName>
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 01:26:13 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<compressionType>QUERY HIGH</compressionType>
+<dsCompression>COMPRESS</dsCompression>
+<encrypt>YES</encrypt>
+<fileType>BIGFILE</fileType>
+<inMemory>NO</inMemory>
+</TableSpaceOraclev10g>

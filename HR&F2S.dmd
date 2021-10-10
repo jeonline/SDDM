@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HR&amp;F2S" id="9AD18402-E8A4-65DF-7580-A0A220039C3C" version="3.5">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 01:23:50 UTC</createdTime>
+<ownerDesignName>HR&amp;F2S</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9AD18402-E8A4-65DF-7580-A0A220039C3C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D9F06072-7419-EA63-0076-4C7FEF93423E">
+<designStoragePath>Z:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
