@@ -1,7 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="834569CD-D68C-A9AD-5BA6-4C053AD48F77" name="ENTITY_CHUNK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F3DD4EA-4370-A4F4-16D7-41ED35CF2966" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="08539956-AD70-F2C1-5257-418499DB6042" name="Entity_FILES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F3DD4EA-4370-A4F4-16D7-41ED35CF2966" propertySourceId="" propertyTargetId=""/>
-   <object objectType="EntityView" objectID="079578DE-1AA4-AB0F-172E-1F2D28A3489A" name="VIEW_FILE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.EntityView" propertyParentId="9F3DD4EA-4370-A4F4-16D7-41ED35CF2966" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Relation" objectID="206AA220-D71C-748C-EA59-DC756B30E22D" name="Relation_file_chunk" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9F3DD4EA-4370-A4F4-16D7-41ED35CF2966" propertySourceId="08539956-AD70-F2C1-5257-418499DB6042" propertyTargetId="834569CD-D68C-A9AD-5BA6-4C053AD48F77"/>
+   <object objectType="Entity" objectID="834569CD-D68C-A9AD-5BA6-4C053AD48F77" name="ENTITY_CHUNK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F3DD4EA-4370-A4F4-16D7-41ED35CF2966" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="file_chunks" id="04A064D2-A8A1-5249-D064-13E7090BCB70">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:22:11 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="TABLE_ID" id="20A0F660-8AC0-9D97-D3A3-A5C10038DDD6">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:25:02 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT027</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="file_date" id="35F0D4C5-E867-BF6B-0FCB-3C3C5A66C092">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 07:30:32 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="file_chunk" id="61977433-426A-B59D-1D2E-8AFBB80A957F">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:21:07 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="file_name" id="BBCAD89C-F399-7135-5419-596380BAE272">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:17:41 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="file_size" id="CC0DB039-084C-B466-5964-C6D258EB7E71">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 07:07:45 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT027</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="B_DATA" id="DB19216B-284C-59A5-C6A9-292AF55F5A44">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:19:52 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 00:04:11 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="md5sum" id="E01C4300-9F33-2A4E-DF52-26BA1E3EB91E">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-05 01:20:37 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>38 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
