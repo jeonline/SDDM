@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="465DF879-932A-0019-FA83-8B59E0B8CFD3" name="ENTITY_CHUNK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 00:34:42 UTC</createdTime>
+<generatorID>834569CD-D68C-A9AD-5BA6-4C053AD48F77</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MD5SUM" id="D1C62459-FB27-0038-3303-FFBF1AB09FC2">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 00:34:42 UTC</createdTime>
+<generatorID>C5864B66-C6C4-844B-6C07-51CD844B0D5C</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E01C4300-9F33-2A4E-DF52-26BA1E3EB91E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="53F9FA5B-936C-C545-FD6E-480E3B79C959">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 00:34:42 UTC</createdTime>
+<generatorID>77F5F4DA-887B-9B40-0BBA-F40C139A7ECC</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>DB19216B-284C-59A5-C6A9-292AF55F5A44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entity_FILES_ID" id="39696DEE-004B-F4CC-0C12-56F714C195E8">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 00:34:42 UTC</createdTime>
+<generatorID>1BFD521A-C0EB-463C-8D63-D26A35523FC1</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>20A0F660-8AC0-9D97-D3A3-A5C10038DDD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40A98FE5-D28A-3FF7-16DE-B07E10EE7E9A" referredColumn="E278A4A2-E53B-1A88-3969-C55DD6BF0CBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C806D250-F3F7-C85B-BA80-C153016B773A" name="ENTITY_CHUNK_PK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 00:34:42 UTC</createdTime>
+<generatorID>27BE07B3-54E0-A023-3586-3AE3DD5B983C</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1C62459-FB27-0038-3303-FFBF1AB09FC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FAF5CBE-653C-B77E-A324-46BC147946DA" name="ENTITY_CHUNK_Entity_FILES_FK">
+<createdBy>jicky</createdBy>
+<createdTime>2021-10-10 00:34:42 UTC</createdTime>
+<generatorID>206AA220-D71C-748C-EA59-DC756B30E22D</generatorID>
+<ownerDesignName>file2sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39696DEE-004B-F4CC-0C12-56F714C195E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
